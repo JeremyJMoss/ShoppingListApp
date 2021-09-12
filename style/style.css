@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.shoppingContainer {
+  background-color: white;
+  width: 500px;
+  margin: 60px auto;
+  height: 500px;
+  padding: 20px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.shoppingBanner {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 2rem;
+  color: #444;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  word-spacing: 0.3rem;
+  letter-spacing: -0.1rem;
+}
+
+form {
+  display: flex;
+  margin: 20px;
+  gap: 5px;
+}
+
+.form_input {
+  background-color: #f7f7f7;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+}
+
+.form_button {
+  border: 0;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #1fae51;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+.shopping_item {
+  margin: 5px 20px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  align-items: center;
+}
+
+.shopping_item p {
+  flex: 1;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.shoppingList::-webkit-scrollbar {
+  width: 10px;
+}
+
+.shoppingList::-webkit-scrollbar-thumb {
+  background: #1fae51;
+  border-radius: 10px;
+}
+
+.shoppingList::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+.editBtn {
+  border: 0;
+  outline: none;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #09aeae;
+  margin: 0 10px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.editInput {
+  background-color: #f7f7f7;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  padding: 7px;
+  flex: 1;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.shoppingList {
+  overflow: auto;
+  height: 250px;
+}
+
+.deleteBtn {
+  border: 0;
+  outline: none;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #d72503;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
